@@ -2,7 +2,7 @@ print "Mary had a little lamb."
 print "Its fleece was white as %s." % 'snow'
 print "And everywhere that Mary went."
 print "." * 10  # what'd that do?
-
+print "1234567890" * 10
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -17,5 +17,8 @@ end11 = "e"
 end12 = "r"
 
 # watch that comma at the end.  try removing it to see what happens
+# Phyton 2.7
 print end1 + end2 + end3 + end4 + end5 + end6,
+# Phyton 3.x
+# print(end01 + end02 + end03 + end04 + end05 + end06, and=' ')
 print end7 + end8 + end9 + end10 + end11 + end12
